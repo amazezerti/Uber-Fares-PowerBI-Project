@@ -1,5 +1,5 @@
-Uber Fares Power BI Project 🚗💨
-📋 Project Overview
+**Uber Fares Power BI Project 🚗💨**
+**📋 Project Overview**
 This repository contains the code, data, and visualizations for the Uber Fares Data Analysis Project, submitted as part of the Introduction to Big Data course at the Adventist University of Central Africa. The project analyzes the Uber Fares Dataset from Kaggle to uncover insights into ride fares, trip distances, temporal patterns, and geographic distribution. Using Python for preprocessing and Power BI for visualization, the project delivers an interactive dashboard to explore trends and provide actionable recommendations for Uber’s operations.
 Student Details:
 
@@ -40,9 +40,9 @@ Output: Cleaned dataset saved as uber_fares_cleaned.csv.
 
 Tool: Python (Matplotlib, Seaborn).
 Analyses:
-Fare distribution (histogram of fare_amount).
-Fare vs. distance (scatter plot of fare_amount vs. distance_miles).
-Fare by hour (line plot of average fare_amount by hour).
+Fare distribution: Histogram of fare_amount.
+Fare vs. distance: Scatter plot of fare_amount vs. distance_miles.
+Fare by hour: Line plot of average fare_amount by hour.
 
 
 Output: Plots saved as fare_distribution.png, fare_vs_distance.png, fare_by_hour.png in /screenshots.
@@ -190,7 +190,6 @@ Dashboard: dashboard.png (Final Power BI dashboard).
 EDA Plots: fare_distribution.png, fare_vs_distance.png, fare_by_hour.png.
 
 
-
 🙏 Acknowledgments
 
 Kaggle: For providing the Uber Fares Dataset.
@@ -198,3 +197,12 @@ Lecturer Eric Maniraguha: For guidance in the Introduction to Big Data course.
 Power BI Community: For resources on dashboard creation.
 
 
+📝 Submission Details
+
+Power BI File: uber_fares_dashboard.pbix (interactive dashboard).
+Report: Uber_Fares_Analysis_Report.md (detailed analysis and recommendations).
+GitHub Repository: https://github.com/your-username/Uber-Fares-PowerBI-Project (replace with your actual link).
+Note: Submitted after the July 25, 2025 deadline (today is July 27, 2025, 5:50 PM CAT). Please contact Lecturer Eric Maniraguha at eric.maniraguha@auca.ac.rw to confirm late submission policies.
+
+
+Author: Abdramane Mahamat Adji Zezerti (ID: 25718)Course: Introduction to Big DataDate: July 27, 2025Contact: Email Lecturer Eric Maniraguha at eric.maniraguha@auca.ac.rw for submission or queries.
