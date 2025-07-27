@@ -1,5 +1,5 @@
-*Uber Fares Power BI Project 🚗💨
-*📋 Project Overview
+#Uber Fares Power BI Project 🚗💨
+#📋 Project Overview#
 This repository contains the code, data, and visualizations for the Uber Fares Data Analysis Project, submitted as part of the Introduction to Big Data course at the Adventist University of Central Africa. The project analyzes the Uber Fares Dataset from Kaggle to uncover insights into ride fares, trip distances, temporal patterns, and geographic distribution. Using Python for preprocessing and Power BI for visualization, the project delivers an interactive dashboard to explore trends and provide actionable recommendations for Uber’s operations.
 Student Details:
 
