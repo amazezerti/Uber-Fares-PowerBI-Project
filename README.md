@@ -124,18 +124,67 @@ The project aims to:
 
 ### 1. _Clone the Repository_
 ```bash
-git clone https://github.com/your-username/Uber-Fares-PowerBI-Project.git
+git clone https://github.com/amazezerti/Uber-Fares-PowerBI-Project.git
 
 
-## 2. Set Up Python Environment 🐍
-- Download Anaconda
+### 2. _Set Up Python Environment_ 🐍  
+- [Download Anaconda](https://www.anaconda.com/products/distribution)  
 - Install required libraries:
+```bash
 pip install pandas numpy geopy matplotlib seaborn
+```
 
+### 3. _Run Preprocessing_  
+- Open `uber_data_preprocessing.py` in Jupyter Notebook  
+- Ensure `uber.csv` is in the same folder  
+- Run to generate `uber_fares_cleaned.csv`
 
-3. Run Preprocessing
-- Open uber_data_preprocessing.py in Jupyter Notebook
-- Ensure uber.csv is in the same folder
-- Run to generate uber_fares_cleaned.csv
+### 4. _Run EDA_  
+- Open `uber_eda.py`  
+- Ensure `uber_fares_cleaned.csv` is available  
+- Run to generate `.png` plots in `/screenshots`
+
+### 5. _View Dashboard_ 🖼
+- [Download Power BI Desktop](https://powerbi.microsoft.com/desktop/)  
+- Open `uber_fares_dashboard.pbix`  
+- Or re-import the CSV and recreate visuals manually
+
+---
+
+## 📊 **Key Findings**
+
+- **Average fare** ≈ `$10.50`, peaks at `$12` during rush hours  
+- **Distance correlation:** `r ≈ 0.70` between fare and miles  
+- **Fridays and Saturdays:** ~30% of rides  
+- **Peak hours:** ~25% of activity  
+- **Manhattan:** Highest ride density
+
+---
+
+## 💡 **Recommendations**
+
+- 🚖 Deploy more drivers during peak hours and weekends  
+- 💸 Implement surge pricing for trips over 5 miles  
+- 🗺 Focus driver availability in Manhattan  
+- 📣 Promote group rides for passengers (5–6)
+
+---
+
+## 📸 **Screenshots Folder**
+
+- `data_import.png` – Power BI Data View  
+- `power_query.png` – Power Query Editor  
+- `dashboard.png` – Final dashboard  
+- `fare_distribution.png` – Histogram  
+- `fare_vs_distance.png` – Scatter plot  
+- `fare_by_hour.png` – Line chart
+
+---
+
+## 🙏 **Acknowledgments**
+
+- Kaggle – For the dataset  
+- Lecturer Eric Maniraguha – For guidance  
+- Power BI Community – For dashboard resources
 
 
